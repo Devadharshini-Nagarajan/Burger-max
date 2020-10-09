@@ -11,7 +11,7 @@ function BuildControls(props) {
     ]
     return (
         <div className={classes.BuildControls}>
-            <p>Current Price: <strong>{props.price.toFixed(2)}</strong> </p>
+            <p>CURRENT PRICE: <strong>{props.price.toFixed(2)}</strong> </p>
             {controls.map(ctrl => {
                 return <BuildControl 
                     key={ctrl.label} 

@@ -24,7 +24,8 @@ function Input(props) {
             inputElement = <input {...props.elementConfig} className={inputClass.join(' ')} onChange={props.changed} value={props.value} />
     }
     return (
-        <div>
+        <div style={{marginBottom: "10px",
+        }}>
             <label>{props.label}</label>
             {inputElement}
         </div>

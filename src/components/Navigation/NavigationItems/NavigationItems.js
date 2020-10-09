@@ -9,7 +9,7 @@ function NavigationItems(props) {
     // <div >
     <ul className={classes.NavigationItems}>
       <NavigationItem>
-        <Link to="/">burger builder</Link>
+        <Link to="/">Burger builder</Link>
       </NavigationItem>
       <NavigationItem>
         <Link to="/orders">Orders</Link>

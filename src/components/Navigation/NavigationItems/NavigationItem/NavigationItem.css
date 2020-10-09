@@ -15,6 +15,6 @@
 .NavigationItem a:active,
 .NavigationItem a.active {
     background-color: thistle;
-    border-bottom: 4px solid blue;
+    border-bottom: 4px solid black;
     color: white;
 }
