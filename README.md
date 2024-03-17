@@ -3,6 +3,7 @@
 Welcome to the Burger app! This application allows users to create their own custom burgers by selecting ingredients and placing orders. The app features authentication using Firebase Authentication for secure user login and signup functionality. It also utilizes Firebase Realtime Database to manage ingredients lists and store orders. For state management, Redux with Redux Thunk middleware is employed to handle asynchronous operations. 
 You can run the app online by visiting [Burger App](https://webofdeva-burger.netlify.app).
 
+<img width="1440" alt="image" src="https://github.com/Devadharshini-Nagarajan/Burger-max/assets/113491692/6b72902c-c3c5-47c2-83bc-a7cb105fc7db">
 
 
 ## Technologies Used
