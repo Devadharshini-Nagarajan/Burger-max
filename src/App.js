@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Switch, withRouter,Redirect } from "react-router-dom";
+import { Route, Switch, withRouter, Redirect } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import BurgerBuilder from "./containers/BurgerBuilder/BurgerBuilder";
 import Checkout from "./containers/Checkout/Checkout";
@@ -10,9 +10,9 @@ import { connect } from "react-redux";
 import * as actions from "./store/actions/index";
 
 class App extends Component {
-  // componentDidMount() {
-  //   this.props.onTryAutoSignUp()
-  // }
+  componentDidMount() {
+    this.props.onTryAutoSignUp();
+  }
 
   render() {
     let route = (

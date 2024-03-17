@@ -100,8 +100,7 @@ class Auth extends Component {
             display: "flex",
             alignItems: "center",
             flexDirection: "column",
-            border: "1px solid black",
-            padding: "20px",
+            padding: "50px",
             boxShadow: "3px 3px 5px 6px #ccc",
           }}
         >
@@ -119,10 +118,13 @@ class Auth extends Component {
             ))}
             <button
               style={{
-                margin: "20px 0 20px 60px",
+                margin: "20px 0",
                 backgroundColor: "green",
                 color: "white",
-                padding: "3px",
+                padding: "10px 20px",
+                border: "none",
+                cursor: "pointer",
+                width: "100%",
               }}
             >
               Login
@@ -134,13 +136,18 @@ class Auth extends Component {
             style={{
               backgroundColor: "green",
               color: "white",
-              padding: "3px",
+              padding: "10px 20px",
+              border: "none",
+              cursor: "pointer",
             }}
           >
             Switch to {this.state.isSignUp ? "SIGNIN" : "SIGNUP"}{" "}
           </button>
-          <br></br>
-          {errorMsg}
+          {errorMsg && (
+            <p style={{ color: "red", margin: "10px 0", textAlign: "center" }}>
+              {errorMsg}
+            </p>
+          )}
         </div>
       </div>
     );
